@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resilient-api-monitor"
+version = "1.0.0"
+description = "An asynchronous HTTP endpoint monitor with retries and SQLite history"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["api_monitor*"]

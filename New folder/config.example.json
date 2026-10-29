@@ -1,0 +1,9 @@
+{
+  "targets": [
+    {"name": "Example", "url": "https://example.com"},
+    {"name": "Python", "url": "https://www.python.org"}
+  ],
+  "timeout_seconds": 5,
+  "max_retries": 2,
+  "backoff_seconds": 0.5
+}
